@@ -454,6 +454,7 @@ h2 {
   text-align: center;
   position: relative;
   width: 100%;
+  max-width: 400px;
   /* notch cutouts on left and right edges */
   mask-image:
     radial-gradient(circle at 0 50%, transparent 20px, #000 21px),
