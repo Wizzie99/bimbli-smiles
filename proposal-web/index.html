@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Proposal | Bimbli Smiles</title>
+    <meta name="description" content="Bimbli Smiles Project Proposal — Brand, Web, and Growth packages tailored for dental practices.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -29,7 +30,7 @@
 
     <div class="container">
         <!-- Header -->
-        <header class="header animate-in">
+        <header class="header animate-in" id="header">
             <div class="header-left">Bimbli Smiles</div>
             <div class="header-center">
                 <h1 class="title">PROJECT<br>PROPOSAL</h1>
@@ -47,181 +48,292 @@
         </header>
 
         <!-- Project Scope -->
-        <section class="scope-section animate-in">
+        <section class="scope-section animate-in" id="scope-section">
             <h2>Project Scope</h2>
             <div class="scope-container">
-                <svg class="scope-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <polygon points="25,48 50,85 85,25" fill="none" stroke="var(--border-color)" stroke-width="0.3" stroke-dasharray="1.5,1.5"/>
-                </svg>
-                
-                <div class="scope-card card-market">
+                <div class="scope-item">
+                    <img src="icons/signpost.svg" alt="" class="scope-icon" width="36" height="36">
                     <h3>Market Context</h3>
                     <p>High density of dental clinics in the area, demands strong brand differentiation to capture attention and loyalty.</p>
                 </div>
                 
-                <div class="scope-card card-target">
+                <div class="scope-item">
+                    <img src="icons/monitoring.svg" alt="" class="scope-icon" width="36" height="36">
+                    <h3>Growth Objective</h3>
+                    <p>Position as a high value service yet accessible by making a creating a ecosystem that informs and attracts.</p>
+                </div>
+
+                <div class="scope-item">
+                    <img src="icons/radar.svg" alt="" class="scope-icon" width="36" height="36">
                     <h3>Target Audience</h3>
                     <p>Individuals with emergency and bigger needs who prioritize quality.</p>
                 </div>
-                
-                <div class="scope-card card-growth">
-                    <h3>Growth Objective</h3>
-                    <p>Position as a high value service by making a smooth and searching and booking customer experience.</p>
+            </div>
+        </section>
+
+        <!-- Ecosystem Strategy -->
+        <section class="ecosystem-section animate-in" id="ecosystem-section">
+            <h2>Ecosystem<br>Strategy</h2>
+            <p class="ecosystem-desc">This is a system designed to make the customers think about the brand more often and make them loyal customers for a long time.</p>
+            <p class="ecosystem-desc-sub">At the same time it is focused on making it easier to select the exact profile you want to attract. It allows and saves data that helps to project growth and plan for the future.</p>
+            
+            <div class="eco-flow">
+                <!-- 1. Social Media Card -->
+                <div class="eco-card eco-center animate-in">
+                    <img src="icons/podcasts.svg" alt="" class="eco-card-icon">
+                    <h4>Social Media</h4>
+                    <p>Educational content and success stories to earn credibility and organic growth</p>
+                </div>
+
+                <!-- 2. Connector: Social Media → Icon Constellation -->
+                <div class="eco-line-v" style="height:40px;"></div>
+
+                <!-- 3. Social platform icon constellation -->
+                <div class="eco-constellation">
+                    <svg class="eco-constellation-lines" viewBox="0 0 260 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Web of connecting lines -->
+                        <line x1="70" y1="30" x2="130" y2="70" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="190" y1="30" x2="130" y2="70" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="50" y1="110" x2="130" y2="70" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="210" y1="110" x2="130" y2="70" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="70" y1="30" x2="50" y2="110" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="190" y1="30" x2="210" y2="110" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="70" y1="30" x2="190" y2="30" stroke="#1574D2" stroke-width="1.5"/>
+                        <line x1="50" y1="110" x2="210" y2="110" stroke="#1574D2" stroke-width="1.5"/>
+                    </svg>
+                    <div class="eco-social-icon" style="top:10px; left:50px;">
+                        <img src="icons/Social%20Icons-4.svg" alt="TikTok" width="26" height="26">
+                    </div>
+                    <div class="eco-social-icon" style="top:10px; right:50px;">
+                        <img src="icons/Social%20Icons-1.svg" alt="X" width="22" height="22">
+                    </div>
+                    <div class="eco-social-icon eco-social-icon-lg" style="top:48px; left:50%; transform:translateX(-50%);">
+                        <img src="icons/Social%20Icons-2.svg" alt="Instagram" width="30" height="30">
+                    </div>
+                    <div class="eco-social-icon" style="bottom:10px; left:30px;">
+                        <img src="icons/Social%20Icons.svg" alt="Reddit" width="26" height="26">
+                    </div>
+                    <div class="eco-social-icon" style="bottom:10px; right:30px;">
+                        <img src="icons/Social%20Icons-3.svg" alt="Facebook" width="26" height="26">
+                    </div>
+                </div>
+
+                <!-- 4. Connector lines branching to Paid Ads & Local SEO -->
+                <svg class="eco-branch-svg" viewBox="0 0 320 60" fill="none" preserveAspectRatio="xMidYMid meet">
+                    <line x1="160" y1="0" x2="80" y2="60" stroke="#1574D2" stroke-width="1.5"/>
+                    <line x1="160" y1="0" x2="240" y2="60" stroke="#1574D2" stroke-width="1.5"/>
+                </svg>
+
+                <!-- 5. Paid Ads & Local SEO row -->
+                <div class="eco-two-col">
+                    <div class="eco-card animate-in">
+                        <img src="icons/campaign.svg" alt="" class="eco-card-icon">
+                        <h4>Paid Ads</h4>
+                        <p>Retarget ideal customers with paid ads through irresistible offers</p>
+                    </div>
+                    <div class="eco-card animate-in">
+                        <img src="icons/Google.svg" alt="" class="eco-card-icon eco-card-icon-lg">
+                        <h4>Local Seo</h4>
+                        <p>Optimized and branded site build with clarity and focused on conversions</p>
+                    </div>
+                </div>
+
+                <!-- 6. Connector lines converging from Paid Ads & Local SEO → Website -->
+                <svg class="eco-branch-svg eco-branch-converge" viewBox="0 0 320 60" fill="none" preserveAspectRatio="xMidYMid meet">
+                    <line x1="80" y1="0" x2="160" y2="60" stroke="#1574D2" stroke-width="1.5"/>
+                    <line x1="240" y1="0" x2="160" y2="60" stroke="#1574D2" stroke-width="1.5"/>
+                </svg>
+
+                <!-- 7. Website Card -->
+                <div class="eco-card eco-center animate-in">
+                    <img src="icons/language.svg" alt="" class="eco-card-icon">
+                    <h4>Website</h4>
+                    <p>Optimized and branded site build with clarity to answer every question and hesitants</p>
+                </div>
+
+                <!-- 8. Connector -->
+                <div class="eco-line-v" style="height:50px;"></div>
+
+                <!-- 9. Booking System Card -->
+                <div class="eco-card eco-center animate-in">
+                    <img src="icons/calendar_check.svg" alt="" class="eco-card-icon">
+                    <h4>Booking System</h4>
+                    <p>Tailored booking system that clarifies the patient needs and helps with time management</p>
+                </div>
+
+                <!-- 10. Connector branching to Account (right) -->
+                <svg class="eco-branch-svg eco-branch-right" viewBox="0 0 320 70" fill="none" preserveAspectRatio="xMidYMid meet">
+                    <line x1="160" y1="0" x2="160" y2="30" stroke="#1574D2" stroke-width="1.5"/>
+                    <line x1="160" y1="30" x2="230" y2="70" stroke="#1574D2" stroke-width="1.5"/>
+                </svg>
+
+                <!-- 11. Account Card (right-aligned) -->
+                <div class="eco-card eco-right animate-in">
+                    <img src="icons/account_circle.svg" alt="" class="eco-card-icon">
+                    <h4>Account</h4>
+                    <p>Collect customer email and create a database for future strategy</p>
+                </div>
+
+                <!-- 12. Connector from Account → Email Marketing (left) -->
+                <svg class="eco-branch-svg eco-zigzag-left" viewBox="0 0 320 70" fill="none" preserveAspectRatio="xMidYMid meet">
+                    <line x1="220" y1="0" x2="100" y2="70" stroke="#1574D2" stroke-width="1.5"/>
+                </svg>
+
+                <!-- 13. Email Marketing Card (left-aligned) -->
+                <div class="eco-card eco-left animate-in">
+                    <img src="icons/notifications_active.svg" alt="" class="eco-card-icon">
+                    <h4>Email Marketing</h4>
+                    <p>Remind patients to come back and follow up with their oral health.</p>
+                </div>
+
+                <!-- 14. Connector from Email Marketing → Ask for Review (right) -->
+                <svg class="eco-branch-svg eco-zigzag-right" viewBox="0 0 320 50" fill="none" preserveAspectRatio="xMidYMid meet">
+                    <line x1="100" y1="0" x2="200" y2="50" stroke="#1574D2" stroke-width="1.5"/>
+                </svg>
+
+                <!-- 15. Ask for Review Card (center-right) -->
+                <div class="eco-card eco-right animate-in">
+                    <img src="icons/reviews.svg" alt="" class="eco-card-icon">
+                    <h4>Ask for review</h4>
+                    <p>Remind costumers to leave a review for costumer feedback.</p>
                 </div>
             </div>
         </section>
 
         <!-- Packages & Pricing -->
-        <section class="pricing-section animate-in">
+        <section class="pricing-section animate-in" id="pricing-section">
             <h2>Packages & Pricing</h2>
             <p class="subtitle">Choose the package that fits your needs. All packages include essential features to get you started, with options to scale as you grow. No hidden fees and the flexibility to change anytime.</p>
             
-            <!-- Mobile scroll hint (hidden on desktop) -->
-            <div class="scroll-hint" id="scroll-hint">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
-                <span>Swipe to compare packages</span>
-            </div>
-
             <div class="table-wrapper" id="table-wrapper">
-                <div class="pricing-grid">
-                    <!-- Headers -->
-                    <div class="pg-head empty"></div>
-                    <div class="pg-head">
-                        <span class="pg-time">3 weeks</span>
-                        <span class="pg-plan-name">Starter</span>
-                        <span class="pg-plan-desc">Ideal for small projects</span>
-                        <span class="pg-price">$2800</span>
-                    </div>
-                    <div class="pg-head bg-tint">
-                        <span class="pg-time">4-6 weeks</span>
-                        <span class="pg-plan-name">Essentials</span>
-                        <span class="pg-plan-desc">Professional brand foundation</span>
-                        <span class="pg-price">$5600</span>
-                    </div>
-                    <div class="pg-head">
-                        <span class="pg-time">7-8 weeks</span>
-                        <span class="pg-plan-name">Growth</span>
-                        <span class="pg-plan-desc">Full brand and conversion system</span>
-                        <span class="pg-price">$8600</span>
+                <div class="price-breakdown">
+                    <!-- Header row -->
+                    <div class="pb-row pb-header">
+                        <div class="pb-feature"></div>
+                        <div class="pb-price">Prices</div>
                     </div>
 
-                    <!-- Row Group: Brand System -->
-                    <div class="pg-group-header">Brand System</div>
-                    
-                    <div class="pg-cell feature-name">Logo Design- (2 Revisions)</div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/3 Revisions</span></div>
-                    
-                    <div class="pg-cell feature-name">Brand Color Palette System</div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    
-                    <div class="pg-cell feature-name">Typography System + Font Pairings</div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/Premium</span></div>
-                    
-                    <div class="pg-cell feature-name">Imagery Design (AI or Real)</div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    
-                    <div class="pg-cell feature-name">Brand Guidelines (User Manual 25+ Pages)</div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
+                    <!-- Brand System group -->
+                    <div class="pb-group">Brand System</div>
 
-                    <!-- Row Group: Web Page Design -->
-                    <div class="pg-group-header">Web Page Design</div>
-                    
-                    <div class="pg-cell feature-name">Customized Landing Page</div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/6 Pg</span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/Up to 12 Pg</span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/12+</span></div>
-                    
-                    <div class="pg-cell feature-name">Mobile First, Fully Responsive Layout</div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    
-                    <div class="pg-cell feature-name">SEO Setup</div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/Basic</span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/Technical</span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/Advanced</span></div>
-                    
-                    <div class="pg-cell feature-name">Contact Form</div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/Automated</span></div>
-                    
-                    <div class="pg-cell feature-name">Google Analytics</div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    
-                    <div class="pg-cell feature-name">Audit & Support</div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/2 Weeks</span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span><span>/30 Days</span></div>
-                    
-                    <div class="pg-cell feature-name">Integration System (Booking, Order, Subscription, Login)</div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-grey"></span></div>
-                    <div class="pg-cell check-cell"><span class="icon-blue"></span></div>
-                    
-                    <!-- Table Footer -->
-                    <div class="pg-cell tfoot empty"></div>
-                    <div class="pg-cell tfoot">
-                        <button class="btn-select">Select</button>
+                    <div class="pb-row">
+                        <div class="pb-feature">Logo Design- (2 Revisions)</div>
+                        <div class="pb-price">$1200</div>
                     </div>
-                    <div class="pg-cell tfoot">
-                        <button class="btn-select">Select</button>
+                    <div class="pb-row">
+                        <div class="pb-feature">Brand Color Palette System</div>
+                        <div class="pb-price"></div>
                     </div>
-                    <div class="pg-cell tfoot">
-                        <button class="btn-select">Select</button>
+                    <div class="pb-row">
+                        <div class="pb-feature">Typography System + Font Parings</div>
+                        <div class="pb-price"></div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Imagery Design (AI or Real) + Editing</div>
+                        <div class="pb-price">$300</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Icon & Illustration Design</div>
+                        <div class="pb-price">$200</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Package & Stationary Design</div>
+                        <div class="pb-price">$800</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Brand Guidelines (User Manual 25+ Pages)</div>
+                        <div class="pb-price">$250</div>
+                    </div>
+
+                    <!-- Web Page Design group -->
+                    <div class="pb-group">Web Page Design</div>
+
+                    <div class="pb-row">
+                        <div class="pb-feature">Customized Landing Page + Development</div>
+                        <div class="pb-price">$3500+</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Mobile First, Fully Responsive Layout</div>
+                        <div class="pb-price">$200</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">SEO Setup</div>
+                        <div class="pb-price">$400</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Contact Form</div>
+                        <div class="pb-price">$150</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Google Analitycs Setup</div>
+                        <div class="pb-price">$100</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Audit & Support (30 days)</div>
+                        <div class="pb-price">$300</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Integrated Systems  (Booking, Cart, Subscription, Login, Etc)</div>
+                        <div class="pb-price">$2000+</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Design System (Spacing System, Design Tokens, Design Style)</div>
+                        <div class="pb-price">$500</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Email & SMS Confirmation System</div>
+                        <div class="pb-price">$300</div>
+                    </div>
+                    <div class="pb-row">
+                        <div class="pb-feature">Front & Backend Development.</div>
+                        <div class="pb-price">Custom</div>
                     </div>
                 </div>
             </div>
 
-            <!-- Mobile pricing: built by JS from grid data -->
-            <div class="mobile-pricing" id="mobile-pricing"></div>
-
-        </section>
-
-        <!-- Next Steps -->
-        <section class="next-steps-section animate-in">
-            <h2>Next Steps</h2>
-            <div class="steps-list">
-                <div class="step-item">
-                    <div class="step-number">01</div>
-                    <div class="step-content">
-                        <h3>Review This Proposal</h3>
-                        <p>Take time to compare both packages. Identify which scope aligns best with your current goals and growth horizon.</p>
-                    </div>
+            <!-- Package Cards (dark background) -->
+            <div class="packages-dark-bg">
+                <!-- Essentials Card -->
+                <div class="pricing-card-standalone essentials-card animate-in" id="essentials-card">
+                    <span class="card-stand-label">Essentials</span>
+                    <span class="card-stand-sub">Strong Foundation</span>
+                    <span class="card-stand-price">$ 5900</span>
+                    <ul class="card-stand-features">
+                        <li><span class="icon-blue"></span> Logo Design</li>
+                        <li><span class="icon-blue"></span> Color Palette</li>
+                        <li><span class="icon-blue"></span> Custom Typography</li>
+                        <li><span class="icon-blue"></span> Imagery Design</li>
+                        <li><span class="icon-blue"></span> Icon & Illustration Design</li>
+                        <li><span class="icon-blue"></span> Custom Landing Page (10 Pg)</li>
+                        <li><span class="icon-blue"></span> Mobile First</li>
+                        <li><span class="icon-blue"></span> SEO Setup</li>
+                        <li><span class="icon-blue"></span> Contact Form</li>
+                        <li><span class="icon-blue"></span> Email & Sms Setup</li>
+                        <li><span class="icon-blue"></span> Google Analitycs</li>
+                    </ul>
+                    <button class="btn-select-plan" data-plan="essentials">Select plan</button>
                 </div>
-                <div class="step-item">
-                    <div class="step-number">02</div>
-                    <div class="step-content">
-                        <h3>Select Your Package</h3>
-                        <p>Once you are ready to move forward, select your preferred package. A 50% deposit confirms and initiates the project.</p>
-                    </div>
-                </div>
-                <div class="step-item">
-                    <div class="step-number">03</div>
-                    <div class="step-content">
-                        <h3>Schedule a Discovery Call</h3>
-                        <p>Take time to compare both packages. Identify which scope aligns best with your current goals and growth horizon.</p>
-                    </div>
+
+                <!-- Growth Card -->
+                <div class="pricing-card-standalone growth-card animate-in" id="growth-card">
+                    <span class="card-stand-label">Growth</span>
+                    <span class="card-stand-sub">Strong Foundation</span>
+                    <span class="card-stand-price">$ 8600</span>
+                    <ul class="card-stand-features">
+                        <li><span class="icon-blue"></span> All Essential Features +</li>
+                        <li><span class="icon-blue"></span> Brand Guidelines</li>
+                        <li><span class="icon-blue"></span> Design System</li>
+                        <li><span class="icon-blue"></span> Custom Booking System</li>
+                        <li><span class="icon-blue"></span> Advanced Local SEO</li>
+                        <li><span class="icon-blue"></span> 30 Days Free Marketing</li>
+                    </ul>
+                    <button class="btn-select-plan" data-plan="growth">Select plan</button>
                 </div>
             </div>
         </section>
 
         <!-- Ticket -->
-        <div class="ticket-wrapper animate-in">
+        <div class="ticket-wrapper animate-in" id="ticket-wrapper">
             <div class="ticket">
                 <div class="ticket-icon">
                     <img src="celebration.svg" alt="Celebration" width="59" height="59">
@@ -264,174 +376,20 @@
             document.querySelectorAll('.icon-blue').forEach(el => el.appendChild(blueTpl.content.cloneNode(true)));
             document.querySelectorAll('.icon-grey').forEach(el => el.appendChild(greyTpl.content.cloneNode(true)));
 
-            // ── Scroll hint auto-dismiss ────────────────────
-            const scrollHint   = document.getElementById('scroll-hint');
-            const tableWrapper = document.getElementById('table-wrapper');
-            if (scrollHint && tableWrapper) {
-                tableWrapper.addEventListener('scroll', () => {
-                    scrollHint.classList.add('hidden');
-                }, { once: true, passive: true });
-            }
-
-            // ── Desktop grid: tag columns & fix borders ─────
-            const grid = document.querySelector('.pricing-grid');
-            let colIndex = 0;
-            Array.from(grid.children).forEach(el => {
-                if (el.classList.contains('pg-group-header')) {
-                    colIndex = 0;
-                } else if (el.classList.contains('pg-cell') || el.classList.contains('pg-head')) {
-                    colIndex++;
-                    const col = ((colIndex - 1) % 4) + 1;
-                    el.dataset.col = col;
-                    if (col === 4) el.classList.add('last-col');
-                }
-            });
-
-            // ── Build mobile pricing cards ──────────────────
-            // Extract plan data from the desktop grid headers
-            const plans = [
-                { col: 2, name: 'Starter',    time: '3 weeks',   desc: 'Ideal for small projects',         price: '$2800' },
-                { col: 3, name: 'Essentials', time: '4-6 weeks', desc: 'Professional brand foundation',    price: '$5600' },
-                { col: 4, name: 'Growth',     time: '7-8 weeks', desc: 'Full brand and conversion system', price: '$8600' },
-            ];
-
-            // Collect feature rows with their group labels and per-column check content
-            const rows = []; // { type: 'group'|'feature', label?, cells: [{isBlue, note}] }
-            const gridChildren = Array.from(grid.children);
-            let rowBuffer = [];
-            gridChildren.forEach(el => {
-                if (el.classList.contains('pg-group-header')) {
-                    rows.push({ type: 'group', label: el.textContent.trim() });
-                    rowBuffer = [];
-                } else if (el.classList.contains('pg-cell') && !el.classList.contains('tfoot')) {
-                    rowBuffer.push(el);
-                    if (rowBuffer.length === 4) {
-                        const featureName = rowBuffer[0].textContent.trim();
-                        const cells = [1, 2, 3].map(i => {
-                            const cell = rowBuffer[i];
-                            const isBlue = !!cell.querySelector('.icon-blue');
-                            const noteEl = cell.querySelector('span:not(.icon-blue):not(.icon-grey)');
-                            const note = noteEl ? noteEl.textContent.trim() : '';
-                            return { isBlue, note };
-                        });
-                        rows.push({ type: 'feature', label: featureName, cells });
-                        rowBuffer = [];
-                    }
-                }
-            });
-
-            const mobileContainer = document.getElementById('mobile-pricing');
-
-            // Build tab bar
-            const tabBar = document.createElement('div');
-            tabBar.className = 'mobile-tabs';
-            plans.forEach((plan, i) => {
-                const btn = document.createElement('button');
-                btn.className = 'mobile-tab' + (i === 0 ? ' active' : '');
-                btn.textContent = plan.name;
-                btn.dataset.planIndex = i;
-                tabBar.appendChild(btn);
-            });
-            mobileContainer.appendChild(tabBar);
-
-            // Build one card per plan
-            const cards = plans.map((plan, planIdx) => {
-                const card = document.createElement('div');
-                card.className = 'mobile-plan-card' + (planIdx === 0 ? ' active' : '');
-                card.dataset.planIndex = planIdx;
-
-                // Header
-                card.innerHTML = `
-                    <div class="mobile-plan-header">
-                        <span class="pg-time">${plan.time}</span>
-                        <span class="pg-plan-name">${plan.name}</span>
-                        <span class="pg-plan-desc">${plan.desc}</span>
-                        <span class="pg-price">${plan.price}</span>
-                    </div>`;
-
-                // Features
-                const featureList = document.createElement('div');
-                rows.forEach(row => {
-                    if (row.type === 'group') {
-                        const label = document.createElement('div');
-                        label.className = 'mobile-group-label';
-                        label.textContent = row.label;
-                        featureList.appendChild(label);
-                    } else {
-                        const cell = row.cells[planIdx];
-                        const rowEl = document.createElement('div');
-                        rowEl.className = 'mobile-feature-row';
-                        const iconClone = cell.isBlue
-                            ? blueTpl.content.cloneNode(true)
-                            : greyTpl.content.cloneNode(true);
-                        const checkEl = document.createElement('div');
-                        checkEl.className = 'mobile-feature-check';
-                        checkEl.appendChild(iconClone);
-                        if (cell.note) {
-                            const noteEl = document.createElement('span');
-                            noteEl.textContent = cell.note;
-                            checkEl.appendChild(noteEl);
-                        }
-                        rowEl.innerHTML = `<span class="mobile-feature-name">${row.label}</span>`;
-                        rowEl.appendChild(checkEl);
-                        featureList.appendChild(rowEl);
-                    }
-                });
-                card.appendChild(featureList);
-
-                // Footer (Select button)
-                const footer = document.createElement('div');
-                footer.className = 'mobile-plan-footer';
-                const btn = document.createElement('button');
-                btn.className = 'btn-select mobile-select-btn';
-                btn.textContent = 'Select';
-                btn.dataset.planIndex = planIdx;
-                footer.appendChild(btn);
-                card.appendChild(footer);
-
-                mobileContainer.appendChild(card);
-                return card;
-            });
-
-            // Tab switching
-            tabBar.addEventListener('click', e => {
-                const btn = e.target.closest('.mobile-tab');
-                if (!btn) return;
-                const idx = parseInt(btn.dataset.planIndex);
-                tabBar.querySelectorAll('.mobile-tab').forEach((t, i) => t.classList.toggle('active', i === idx));
-                cards.forEach((c, i) => c.classList.toggle('active', i === idx));
-            });
-
-            // Mobile select buttons sync with desktop column highlight
-            document.querySelectorAll('.mobile-select-btn').forEach(btn => {
+            // ── Standalone card select buttons ──────────────
+            document.querySelectorAll('.btn-select-plan').forEach(btn => {
                 btn.addEventListener('click', () => {
-                    const planIdx = parseInt(btn.dataset.planIndex);
-                    const desktopCol = planIdx + 2; // col 2, 3, 4
-                    const isSelected = btn.textContent.includes('✓');
+                    const plan = btn.dataset.plan;
+                    const isSelected = btn.classList.contains('selected');
 
-                    // Clear all
-                    grid.querySelectorAll('.col-selected').forEach(el => el.classList.remove('col-selected'));
-                    document.querySelectorAll('.btn-select').forEach(b => b.textContent = 'Select');
+                    // Clear everything
+                    document.querySelectorAll('.btn-select-plan').forEach(b => { b.textContent = 'Select plan'; b.classList.remove('selected'); });
+                    document.querySelectorAll('.pricing-card-standalone').forEach(c => c.classList.remove('card-selected'));
 
                     if (!isSelected) {
-                        grid.querySelectorAll(`[data-col="${desktopCol}"]`).forEach(el => el.classList.add('col-selected'));
+                        btn.classList.add('selected');
                         btn.textContent = 'Selected ✓';
-                    }
-                });
-            });
-
-            // ── Desktop column select ───────────────────────
-            document.querySelectorAll('.pg-cell.tfoot .btn-select').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    const tfootCell = btn.closest('.pg-cell.tfoot');
-                    const targetCol = tfootCell?.dataset.col;
-                    if (!targetCol) return;
-                    const isSelected = tfootCell.classList.contains('col-selected');
-                    grid.querySelectorAll('.col-selected').forEach(el => el.classList.remove('col-selected'));
-                    document.querySelectorAll('.btn-select').forEach(b => b.textContent = 'Select');
-                    if (!isSelected) {
-                        grid.querySelectorAll(`[data-col="${targetCol}"]`).forEach(el => el.classList.add('col-selected'));
-                        btn.textContent = 'Selected ✓';
+                        btn.closest('.pricing-card-standalone').classList.add('card-selected');
                     }
                 });
             });
@@ -447,9 +405,8 @@
 
             // ── Package data map ────────────────────────────
             const packageMap = {
-                '2': { name: 'Starter',    price: '$2800', duration: '3 weeks' },
-                '3': { name: 'Essentials', price: '$5600', duration: '4–6 weeks' },
-                '4': { name: 'Growth',     price: '$8600', duration: '7–8 weeks' },
+                essentials: { name: 'Essentials', price: '$5,900', duration: '4–6 weeks' },
+                growth:     { name: 'Growth',     price: '$8,600', duration: '7–8 weeks' },
             };
 
             // ── Success overlay logic ───────────────────────
@@ -477,36 +434,21 @@
 
             // ── Proceed button ──────────────────────────────
             proceedBtn.addEventListener('click', async () => {
-                // Find which column is selected
-                const selectedCell = grid.querySelector('.pg-cell.tfoot.col-selected');
-                const mobileSelectedBtn = document.querySelector('.mobile-select-btn.btn-select');
-                const isMobileSelected  = [...document.querySelectorAll('.mobile-select-btn')]
-                                            .some(b => b.textContent.includes('✓'));
-
-                let selectedCol = selectedCell?.dataset.col;
-                if (!selectedCol && isMobileSelected) {
-                    const mBtn = [...document.querySelectorAll('.mobile-select-btn')]
-                                    .find(b => b.textContent.includes('✓'));
-                    if (mBtn) selectedCol = String(parseInt(mBtn.dataset.planIndex) + 2);
-                }
-
-                if (!selectedCol) {
-                    // No package selected — shake and flash
+                const selectedBtn = document.querySelector('.btn-select-plan.selected');
+                if (!selectedBtn) {
                     proceedBtn.classList.remove('shake');
-                    void proceedBtn.offsetWidth; // reflow to restart animation
+                    void proceedBtn.offsetWidth;
                     proceedBtn.classList.add('shake');
                     setTimeout(() => proceedBtn.classList.remove('shake'), 500);
                     return;
                 }
 
-                const pkg = packageMap[selectedCol];
+                const pkg = packageMap[selectedBtn.dataset.plan];
                 if (!pkg) return;
 
-                // Show loading state
                 proceedBtn.classList.add('loading');
                 proceedBtn.textContent = 'Sending…';
 
-                // POST to API (fire-and-forget — overlay shows regardless)
                 try {
                     await fetch('/api/notify', {
                         method: 'POST',
@@ -518,9 +460,7 @@
                             timestamp: new Date().toISOString(),
                         }),
                     });
-                } catch (_) {
-                    // Silently fail — overlay still opens
-                }
+                } catch (_) {}
 
                 proceedBtn.classList.remove('loading');
                 proceedBtn.textContent = 'Proceed';
